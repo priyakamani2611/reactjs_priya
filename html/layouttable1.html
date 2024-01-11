@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table 1</title>
+    <style>
+        table {
+            width: 80%;
+        }
+
+        table,
+        th,
+        td {    
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        header {
+            height: 60px;
+            background-color: rgb(30, 31, 106);
+        }
+
+        nav {
+            /* margin-left: 20px; */
+            height: 30px;
+            border: 1px solid black;
+            background-color: rgb(221, 231, 225);
+        }
+
+        section {
+            height: 60px;
+            background-color: rgb(16, 155, 53);
+            border: 1px solid black;
+        }
+
+        article {
+            width: 80%;
+            background-color: rgb(26, 96, 96);
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+
+        aside {
+            height: 200px;
+            background-color: rgb(110, 11, 210);
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+        }
+        footer {
+            height: 30px;   
+            background-color: rgb(16, 166, 168);
+        }
+    </style>
+</head>
+
+<body>
+    <table cellpadding="5px">
+        <tr>
+            <th colspan="2">
+                <header>
+                    Header
+                    <nav>
+                        Nav
+                    </nav>
+                </header>
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                <article>
+                    article
+                    <table>
+                        <tr>
+                            <section>
+                                section
+                            </section>
+                        </tr>
+
+                    </table>
+                    <table>
+                        <tr>
+                            <section>
+                                section
+                            </section>
+                        </tr>
+
+                    </table>
+                    <table>
+                        <tr>
+                            <section>
+                                section
+                            </section>
+                        </tr>
+
+                    </table>
+                </article>
+            </td>
+            <td>
+                <aside>
+                    aside
+                </aside>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 0px;">
+                <footer>
+                    footer
+                </footer>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
